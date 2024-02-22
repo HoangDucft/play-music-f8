@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đức code nèee</title>
+    <link rel="stylesheet" href="./assets/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <body>
+    <!-- thẻ bao trùm toàn bộ -->
+<div class="player "> 
+    <div class="dashboard">
+
+        <div class="header">
+            <h3>Now playing </h3>
+        </div>
+    <div class="sound-wave">
+        <div class="cd">
+            <div class="cd-thumb" style="background-image: url('https://wallpapercave.com/wp/wp2512875.jpg');">
+            </div>
+        </div>
+    </div>  
+
+        <div class="information">
+            <h1 class="name">See you again</h1>
+            <h3 class="singer">Hoàng Đức</h3>
+        </div>
+
+        
+
+        <div class="progress-time">
+            <input type="range" class="progress" value="0" step="1" min="0" max="100">
+        </div>
+
+        <div class="timer">
+            <div class="time-start"></div>
+            <div class="time-end"></div>
+          </div>
+
+        <div class="control">
+            <div class="repeat-btn">
+                <i class="fa-solid fa-arrow-rotate-right"></i>
+            </div>
+
+            <div class="prev-btn">
+                <i class="fa-solid fa-backward"></i>
+            </div>
+
+            <div class="toggle-btn">
+                <i class="fa-solid fa-circle-play"></i>
+                <i class="fa-solid fa-circle-pause"></i>
+            </div>
+
+            <div class="next-btn">
+                <i class="fa-solid fa-forward"></i>
+            </div>
+
+            <div class="random-btn ">
+                <i class="fa-solid fa-shuffle"></i>
+            </div>
+        </div>
+        <audio class="audio" src=""></audio>
+
+
+    </div>
+
+    <div class="playlist">
+         <div class="song">
+            <div class="thumb" style="background-image: url('./assets/image/autumn\ in\ my\ heart.jfif')">
+            </div>
+            <div class="body-song">
+              <h3 class="title">Music name</h3>
+              <p class="author">Singer</p>
+            </div>
+            <div class="option">
+              <i class="fas fa-ellipsis-h"></i>
+            </div>
+        </div>   
+    </div>
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
+
